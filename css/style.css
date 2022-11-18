@@ -6,19 +6,19 @@
 div, h1, h2, h3, h4, span, li, ul, img, p, textarea, input, form, a, lable {
 	margin:0;
 	padding:0;
-	
 }
 body {
 	background:#fff url(../images/bgback.jpg) 0 0 repeat-x;
 	font:normal 11px/18px Tahoma, Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
+
 }
 /*------------ Main css ------------*/
 
 #main {
 	width:1000px;
-	margin:0 auto;
+	margin: 0 auto;
 	background:#fff1b7 url(../images/mainbg.jpg) 0 0 no-repeat;
 }
 /*------------ Header & Logo css ------------*/
@@ -452,6 +452,18 @@ a.navf:hover, a.navfactive {
 	border-radius: 50%;
 }
 
+/* imagenes de paginas */
+
+.img2{
+
+	margin: 2px 2px 2px 2px;
+	width: 210px;
+	height: 210px;
+    object-fit: cover;
+    border-radius: 10% 10% 10% 10%;
+    transition: all .5s;
+}
+
 @media screen and (max-width: 980px){
     #contenedor{
         width: 90%;
@@ -474,4 +486,14 @@ a.navf:hover, a.navfactive {
     #barra_lateral{
         display:none;
     }
+}
+
+.welcomecontent2 {
+	width:930px;
+	float:left;
+	color:#004356;
+	padding:26px 0 0 30px;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;
+	text-align: justify;
+	margin-bottom: 20px;
 }
